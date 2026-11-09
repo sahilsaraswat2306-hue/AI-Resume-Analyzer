@@ -1,0 +1,141 @@
+
+.github-verification-card {
+  margin: 28px 0;
+  padding: 24px;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  background: #ffffff;
+  color: #172033;
+}
+
+.github-verification-heading {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+
+.github-icon {
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  background: #f1f5f9;
+  color: #111827;
+}
+
+.github-verification-heading h2,
+.github-repository h3 {
+  margin: 0 0 6px;
+}
+
+.github-verification-heading p,
+.github-repository p {
+  margin: 0;
+  color: #64748b;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.github-repository {
+  margin-top: 16px;
+  padding: 18px;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+}
+
+.github-repository-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.github-repository-top a {
+  color: #334155;
+}
+
+.github-status {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 20px 0;
+  color: #334155;
+}
+
+.github-repository h4 {
+  margin: 18px 0 10px;
+}
+
+.github-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.github-tag {
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+.github-tag.matched {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.github-tag.review {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.github-notice {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 14px;
+  border-radius: 12px;
+  background: #fff7ed;
+  color: #9a3412;
+}
+
+.github-notice p {
+  margin-top: 5px;
+  line-height: 1.5;
+}
+
+.github-empty,
+.github-disclaimer,
+.github-warning {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #64748b;
+}
+
+.github-files {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.github-disclaimer {
+  margin: 20px 0 0;
+}
+
+.github-warning {
+  color: #92400e;
+}
+
+@media (max-width: 600px) {
+  .github-verification-card {
+    padding: 16px;
+  }
+
+  .github-repository {
+    padding: 14px;
+  }
+}
